@@ -4,6 +4,7 @@ import './index.css';
 //import App from './App';
 import Profile from './Profile';
 import * as serviceWorker from './serviceWorker';
+import ConstructorExample from './ConstructorExample';
 
 
 // ReactDOM.render(
@@ -13,6 +14,11 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <Profile />,
+document.getElementById('root')
+);
+
+ReactDOM.render(
+  <ConstructorExample />,
 document.getElementById('root')
 );
 
